@@ -4,3 +4,68 @@
 	border: 0;
 }
 
+header {
+	height: 64px;
+	width: 1280px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#logoarea {
+	height: 64px;
+	width: 355px;
+	display: flex;
+	align-items: center;
+}
+
+header img {
+	height: 54px;
+	margin-left: 30px;
+}
+
+header h1 {
+	font-family: Raleway, sans-serif;
+	font-size: 30px;
+	font-weight: 100;
+	margin-left: 5px;
+	color: gray;
+}
+
+header nav {
+	margin-right: 15px;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	display: inline;
+	margin-right: 25px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	font-family: Raleway, sans-serif;
+	color: black;
+	opacity: 1;
+}
+
+header nav ul li a:hover {
+	text-decoration: underline;
+	color: gray;
+}
+
+#h1-strong {
+	font-family: Raleway, sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+
+#first-section {
+	height: 600px;
+	width: 100%;
+	background-color: lightgray;
+}
