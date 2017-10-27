@@ -7,6 +7,7 @@
 header {
 	height: 64px;
 	width: 1280px;
+	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -65,7 +66,78 @@ header nav ul li a:hover {
 }
 
 #first-section {
-	height: 600px;
+	height: 601px;
 	width: 100%;
 	background-color: lightgray;
 }
+
+#first-section-wrapper {
+	margin: 0 auto;
+	width: 1220px;
+	height: 601px;
+}
+
+#first-section-wrapper img {
+	margin-top: 30px;
+	width: 60%;
+	float: left;
+}
+
+#learn-wrapper {
+	height: 540px;
+	width: 40%;
+	float: right;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#learn {
+	height: 255px;
+	width: 325px;
+}
+
+#learn h1 {
+	font-family: Raleway, sans-serif;
+	font-size: 40px;
+	font-weight: 800;
+	color: #4f4f4f;
+}
+
+#learn p {
+	font-family: Raleway, sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	color: #4f4f4f;
+	margin-top: 40px;
+}
+
+#learn a {
+	text-decoration: none;
+}
+
+#button {
+	height: 50px;
+	width: 325px;
+	background-color: #313131;
+	margin-top: 40px;
+	text-align: center;	
+}	
+
+#button p {
+	font-family: Raleway, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: white;
+	padding-top: 12px;
+}
+
+#second-section {
+	height: 600px;
+	width: 100%;
+	background-color: white;
+}
+
+
+
