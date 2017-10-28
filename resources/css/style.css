@@ -259,19 +259,64 @@ header nav ul li a:hover {
 }
 
 #third-section {
-	height: 677px;
+	height: 865px;
 	width: 100%;
 	background-color: lightgray;
+	text-align: center;
+}
+
+#third-section h1 {
+	font-family: Raleway, sans-serif;
+	font-weight: 800;
+	font-size: 42px;
+	color: #4f4f4f;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #third-section-wrapper {
 	margin: 0 auto;
-	width: 1220px;
-	height: 677px;
+	width: 1000px;
+	height: 785px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.third-section-box {
+	width: 30%;
+	height: 340px;
+	text-align: left;
+	background: white;
+}
+
+.third-section-box h2 {
+	font-family: Raleway, sans-serif;
+	font-weight: 800;
+	font-size: 24px;
+	margin-top: 15px;
+	margin-left: 15px;
+	color: #4f4f4f;
+}
+
+.third-section-box p {
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	margin-left: 15px;
+	margin-top: 26px;
+	margin-bottom: 10px;
+	color: #4f4f4f;
+	line-height: 25px;
+}
+
+.third-section-box img {
+	width: 100%;
 }
 
 #fourth-section {
-	height: 677px;
+	height: 777px;
 	width: 100%;
 	background-color: white;
 }
