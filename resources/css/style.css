@@ -134,10 +134,150 @@ header nav ul li a:hover {
 }
 
 #second-section {
-	height: 600px;
+	height: 677px;
 	width: 100%;
 	background-color: white;
 }
 
+#second-section-wrapper {
+	margin: 0 auto;
+	width: 1220px;
+	height: 677px;
+}
 
+#second-section-wrapper img {
+	margin-top: 30px;
+	width: 60%;
+	float: left;
+}
 
+#second-section-sidebar {
+	height: 600px;
+	width: 40%;
+	float: right;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.sidebar-box {
+	height: 186px;
+	width: 90%;
+	background: white;
+	text-align: center;
+}
+
+.sidebar-box h2 {
+	font-family: Raleway, sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+	margin-top: 50px;
+	color: #4f4f4f;
+}
+
+.sidebar-box p {
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #4f4f4f;
+}
+
+.sidebar-box a {
+	text-decoration: none;
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	color: #0089ff;
+}
+
+#first {
+	background-color: lightgray;
+}
+
+#first img {
+	width: 42%;
+	height: 186px;
+	margin: 0;
+}
+
+#second {
+	margin-top: 30px;
+}
+
+#second img {
+	width: 42%;
+	height: 186px;
+	margin: 0;
+}
+
+#third {
+	margin-top: 30px;
+	background-color: lightgray;
+}
+
+#third img {
+	width: 42%;
+	height: 186px;
+	margin: 0;
+}
+
+#second-section-textbox {
+	height: 186px;
+	width: 60%;
+	float: left;
+	margin-top: 30px;
+}
+
+#second-section-textbox h1 {
+	font-family: Raleway, sans-serif;
+	font-weight: 800;
+	font-size: 42px;
+	color: #4f4f4f;
+}
+
+#second-section-textbox p {
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #4f4f4f;
+	line-height: 28px;
+}
+
+#italic {
+	font-style: italic;
+}
+
+#second-section-textbox a {
+	text-decoration: none;
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	color: #0089ff;
+}
+
+#third-section {
+	height: 677px;
+	width: 100%;
+	background-color: lightgray;
+}
+
+#third-section-wrapper {
+	margin: 0 auto;
+	width: 1220px;
+	height: 677px;
+}
+
+#fourth-section {
+	height: 677px;
+	width: 100%;
+	background-color: white;
+}
+
+#fourth-section-wrapper {
+	margin: 0 auto;
+	width: 1220px;
+	height: 677px;
+}
