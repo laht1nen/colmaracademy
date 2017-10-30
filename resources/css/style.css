@@ -68,7 +68,7 @@ header nav ul li a:hover {
 #first-section {
 	height: 601px;
 	width: 100%;
-	background-color: lightgray;
+	background-color: #f0f0f0;
 }
 
 #first-section-wrapper {
@@ -157,15 +157,16 @@ header nav ul li a:hover {
 	float: right;
 	margin-top: 30px;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	flex-wrap: wrap;
 }
 
 .sidebar-box {
 	height: 186px;
-	width: 90%;
+	width: 95%;
 	background: white;
 	text-align: center;
+	margin-left: 30px;
 }
 
 .sidebar-box h2 {
@@ -193,7 +194,7 @@ header nav ul li a:hover {
 }
 
 #first {
-	background-color: lightgray;
+	background-color: #f0f0f0;
 }
 
 #first img {
@@ -214,7 +215,7 @@ header nav ul li a:hover {
 
 #third {
 	margin-top: 30px;
-	background-color: lightgray;
+	background-color: #f0f0f0;
 }
 
 #third img {
@@ -223,21 +224,21 @@ header nav ul li a:hover {
 	margin: 0;
 }
 
-#second-section-textbox {
+.textbox {
 	height: 186px;
 	width: 60%;
 	float: left;
 	margin-top: 30px;
 }
 
-#second-section-textbox h1 {
+.textbox h1 {
 	font-family: Raleway, sans-serif;
 	font-weight: 800;
 	font-size: 42px;
 	color: #4f4f4f;
 }
 
-#second-section-textbox p {
+.textbox p {
 	font-family: Raleway, sans-serif;
 	font-weight: 400;
 	font-size: 15px;
@@ -251,7 +252,7 @@ header nav ul li a:hover {
 	font-style: italic;
 }
 
-#second-section-textbox a {
+.textbox a {
 	text-decoration: none;
 	font-family: Raleway, sans-serif;
 	font-weight: 400;
@@ -261,7 +262,7 @@ header nav ul li a:hover {
 #third-section {
 	height: 865px;
 	width: 100%;
-	background-color: lightgray;
+	background-color: #f0f0f0;
 	text-align: center;
 }
 
@@ -316,7 +317,7 @@ header nav ul li a:hover {
 }
 
 #fourth-section {
-	height: 777px;
+	height: 640px;
 	width: 100%;
 	background-color: white;
 }
@@ -324,5 +325,60 @@ header nav ul li a:hover {
 #fourth-section-wrapper {
 	margin: 0 auto;
 	width: 1220px;
-	height: 677px;
+	height: 640px;
+}
+
+#fourth-section-wrapper video {
+	margin-top: 30px;
+	height: 412px;
+	width: 60%;
+	float: left;
+}
+
+#fourth-section-sidebar {
+	height: 400px;
+	width: 40%;
+	float: right;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+
+#fourth {
+	height: 191px;
+	margin-top: 0px;
+}
+
+#fourth h2 {
+	margin-top: 55px;
+}
+
+#fourth img {
+	width: 42%;
+	height: 191px;
+	margin: 0;
+	float: left;
+}
+
+#fifth {
+	height: 191px;
+	margin-top: 30px;
+	background-color: #f0f0f0;
+}
+
+#fifth h2 {
+	margin-top: 70px;
+}
+
+#fifth p {
+	margin-left: 10px;
+}
+
+#fifth img {
+	float: left;
+	width: 42%;
+	height: 191px;
+	margin: 0;
 }
